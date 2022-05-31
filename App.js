@@ -29,7 +29,22 @@ export default function App() {
               titulo = {item.nome}
               imagem = {item.imagem}
               valor = {item.valor}
-            />   
+            />
+          )}
+        />
+      </View>
+      <View>
+      <FlatList
+          horizontal={true}
+          data={Dados}
+          keyExtractor = {(item) => item.id}
+          renderItem = { ({ item }) => (
+
+            <Jogos
+              titulo = {item.nome}
+              imagem = {item.imagem}
+              valor = {item.valor}
+            />
           )}
         />
       </View>

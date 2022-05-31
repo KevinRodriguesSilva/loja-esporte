@@ -1,4 +1,4 @@
-const JOGOS = [
+const JOGOS2 = [
     {
         id : "01",
         nome: "Bola de Volei - Mikasa",
@@ -31,4 +31,4 @@ const JOGOS = [
     }
 ]
 
-export default JOGOS;
+export default JOGOS2;
